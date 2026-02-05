@@ -1,0 +1,8 @@
+[biO]bj/
+[bB]in/
+*.user
+*.suo
+*.log
+*.msi
+.vs/
+publish/

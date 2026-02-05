@@ -1,0 +1,56 @@
+﻿<Window x:Class="TaskbarMonitor.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:vm="clr-namespace:TaskbarMonitor.ViewModels"
+        mc:Ignorable="d"
+        Title="Taskbar Monitor" Height="40" Width="Auto"
+        WindowStyle="None" AllowsTransparency="True" Background="#99000000"
+        Topmost="True" ShowInTaskbar="False" ResizeMode="NoResize"
+        Loaded="Window_Loaded">
+    
+    <Window.DataContext>
+        <vm:MainViewModel />
+    </Window.DataContext>
+
+    <Window.ContextMenu>
+        <ContextMenu>
+            <MenuItem Header="Reload Position" Click="ReloadPosition_Click"/>
+            <Separator/>
+            <MenuItem Header="設定 (Settings)" Click="Settings_Click"/>
+            <Separator/>
+            <MenuItem Header="Exit" Click="Exit_Click"/>
+        </ContextMenu>
+    </Window.ContextMenu>
+
+    <Border CornerRadius="5" Padding="5,2,5,2">
+        <StackPanel Orientation="Vertical" VerticalAlignment="Center">
+            
+            <!-- Row 1: Sensor Data -->
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" TextBlock.Foreground="White" TextBlock.FontSize="11">
+                <StackPanel.Resources>
+                    <Style TargetType="TextBlock">
+                        <Setter Property="Margin" Value="3,0,3,0"/>
+                    </Style>
+                </StackPanel.Resources>
+                <TextBlock Text="{Binding Temperature}" ToolTip="Temperature"/>
+                <TextBlock Text="{Binding Humidity}" ToolTip="Humidity"/>
+                <TextBlock Text="{Binding Co2}" ToolTip="CO2" FontWeight="Bold"/>
+            </StackPanel>
+
+            <!-- Row 2: Network Data -->
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" TextBlock.Foreground="LightGray" TextBlock.FontSize="10">
+                 <StackPanel.Resources>
+                    <Style TargetType="TextBlock">
+                        <Setter Property="Margin" Value="3,0,3,0"/>
+                    </Style>
+                </StackPanel.Resources>
+                <TextBlock Text="DNS:"/>
+                <TextBlock Text="{Binding DnsPing}"/>
+                <TextBlock Text="GW:"/>
+                <TextBlock Text="{Binding GatewayPing}"/>
+            </StackPanel>
+        </StackPanel>
+    </Border>
+</Window>

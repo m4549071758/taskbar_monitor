@@ -1,0 +1,13 @@
+BuiltPdbOutput	E:\Download\a\Installer\obj\Release\TaskbarMonitor.wixpdb
+BuiltTargetOutput	E:\Download\a\Installer\obj\Release\TaskbarMonitor.msi
+Input	..\TaskbarMonitor\bin\Release\net8.0-windows\win-x64\publish\appsettings.json
+Input	..\TaskbarMonitor\bin\Release\net8.0-windows\win-x64\publish\TaskbarMonitor.exe
+Input	C:\Users\m4549\.nuget\packages\wixtoolset.ui.wixext\5.0.0\wixext5\WixToolset.UI.wixext.dll
+Intermediate	E:\Download\a\Installer\obj\Release\#cab1.cab
+Intermediate	E:\Download\a\Installer\obj\Release\WixToolset.UI.wixext_cEOc2HcKiA91alXeoYktpdtZpxU\wix-ir\bannrbmp.bmp
+Intermediate	E:\Download\a\Installer\obj\Release\WixToolset.UI.wixext_cEOc2HcKiA91alXeoYktpdtZpxU\wix-ir\dlgbmp.bmp
+Intermediate	E:\Download\a\Installer\obj\Release\WixToolset.UI.wixext_cEOc2HcKiA91alXeoYktpdtZpxU\wix-ir\exclamic.ico
+Intermediate	E:\Download\a\Installer\obj\Release\WixToolset.UI.wixext_cEOc2HcKiA91alXeoYktpdtZpxU\wix-ir\info.ico
+Intermediate	E:\Download\a\Installer\obj\Release\WixToolset.UI.wixext_cEOc2HcKiA91alXeoYktpdtZpxU\wix-ir\new.ico
+Intermediate	E:\Download\a\Installer\obj\Release\WixToolset.UI.wixext_cEOc2HcKiA91alXeoYktpdtZpxU\wix-ir\uica.dll-2
+Intermediate	E:\Download\a\Installer\obj\Release\WixToolset.UI.wixext_cEOc2HcKiA91alXeoYktpdtZpxU\wix-ir\up.ico

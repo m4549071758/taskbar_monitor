@@ -1,0 +1,12 @@
+using System;
+
+namespace TaskbarMonitor.Models
+{
+    public class EnvironmentData
+    {
+        public double? Temperature { get; set; }
+        public double? Humidity { get; set; }
+        public int? Co2 { get; set; }
+        public DateTime Timestamp { get; set; }
+    }
+}

@@ -1,0 +1,6 @@
+E:\Download\a\Installer\obj\Release\Installer.wixproj.CoreCompileInputs.cache
+E:\Download\a\Installer\obj\Release\TaskbarMonitor.msi
+E:\Download\a\Installer\obj\Release\TaskbarMonitor.wixpdb
+E:\Download\a\Installer\obj\Release\Installer.wixproj.BindTracking-neutral.txt
+E:\Download\a\Installer\bin\Release\TaskbarMonitor.msi
+E:\Download\a\Installer\bin\Release\TaskbarMonitor.wixpdb

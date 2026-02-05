@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "cMuClpRRzak=",
+  "success": true,
+  "projectFilePath": "E:\\Download\\a\\Installer\\Installer.wixproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\m4549\\.nuget\\packages\\wixtoolset.ui.wixext\\5.0.0\\wixtoolset.ui.wixext.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
