@@ -9,6 +9,9 @@
 
 **Taskbar Monitor** is a Windows 11 taskbar widget that overlays environment sensor data and network latency metrics directly next to your system clock. It seamlessly integrates into your desktop, providing real-time monitoring at a glance.
 
+<img width="256" height="38" alt="image" src="https://github.com/user-attachments/assets/df22b3f5-690c-4b39-86d6-fe59f1765ce0" />
+
+
 ### Features
 
 *   **Environment Monitoring**: Displays Temperature, Humidity, and CO2 levels from InfluxDB.
@@ -68,6 +71,8 @@ This project is licensed under the **GNU General Public License v3.0 (GPLv3)** -
 ## Japanese
 
 **Taskbar Monitor** は、Windows 11 のタスクバー（時計の横）に、環境センサーデータやネットワークの応答速度（Ping）をオーバーレイ表示する常駐型ウィジェットです。
+
+<img width="256" height="38" alt="image" src="https://github.com/user-attachments/assets/df22b3f5-690c-4b39-86d6-fe59f1765ce0" />
 
 ### 機能
 
